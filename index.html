@@ -4,25 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Personal Homepage</title>
+    <title>WDD 130 | Jairo Garcia</title>
 
-    <!-- Info -->
+    <!-- Meta tags -->
     <meta name="description" content="Jairo Garcia - WDD130 personal homepage for practice and learning.">
     <meta name="author" content="Jairo Garcia">
 
-    <!-- Link to CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <h1>Welcome to WDD 130</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+        </nav>
     </header>
 
     <!-- Main content -->
     <main>
+        <h1>Welcome to WDD 130</h1>
+
+        <!-- Profile Image -->
+        <img src="images/profile.jpg" alt="Profile picture of Jairo Garcia">
+
         <p>This page will become your homepage for the course.</p>
+
         <img src="images/salt-lake-temple.jpg" alt="The Salt Lake Temple">
     </main>
 
@@ -38,8 +47,8 @@
         <p>&copy; <span id="year"></span> Jairo Garcia</p>
     </footer>
 
+    <!-- Script -->
     <script>
-        // Show current year in footer
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 </body>
