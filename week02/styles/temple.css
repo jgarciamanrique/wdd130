@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 0.9rem;
+}
+
+/* Contenedor principal */
+main {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Imagen */
+picture img {
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+/* Secciones */
+section {
+    background-color: #e6e6e6;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Títulos de sección */
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+/* Enlaces */
+a {
+    color: #1a4fa3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 0.85rem;
+}
