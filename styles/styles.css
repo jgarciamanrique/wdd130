@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: steelblue;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* MAIN */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  text-align: center; /* 👈 esto centra la imagen del perfil */
+}
+
+
+h1 {
+  color: steelblue;
+}
+
+/* IMAGEN PRINCIPAL */
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+/* ASIDE (CENTRADO RECOMENDADO) */
+aside {
+  width: 300px;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+  text-align: center; /* 👈 centrado recomendado */
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* TEXTO */
+p {
+  padding: 0;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
