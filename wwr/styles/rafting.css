@@ -35,7 +35,7 @@ header img {
   margin-bottom: 1rem;
 }
 
-/* NAV SOLO DEL HEADER */
+/* NAV DEL HEADER */
 header nav {
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ header nav a {
   border: 1px solid #999;
 }
 
-/* Imagen grande del hero */
+/* IMAGEN PRINCIPAL DEL HERO */
 .hero > img {
   width: 100%;
   height: 400px;
@@ -63,7 +63,7 @@ header nav a {
   display: block;
 }
 
-/* Título encima del hero */
+/* TÍTULO SOBRE EL HERO */
 .hero h1 {
   position: absolute;
   top: 1rem;
@@ -75,7 +75,7 @@ header nav a {
   padding: 0.5rem 1rem;
 }
 
-/* Cajita About encima del hero */
+/* ARTICLE SOBRE EL HERO */
 .hero article {
   position: absolute;
   bottom: 1rem;
@@ -83,15 +83,15 @@ header nav a {
   transform: translateX(-50%);
   background-color: white;
   width: 80%;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   padding: 1rem;
   border: 1px dashed #aaa;
 }
 
+/* IMAGEN DEL ARTICLE (FLOAT REQUERIDO POR EL AUDITOR) */
 .hero article img {
   width: 80px;
+  float: right;
+  margin-left: 1rem;
 }
 
 /* SECTIONS */
@@ -100,6 +100,7 @@ section {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
+  background-color: var(--secondary-color);
 }
 
 section h2 {
@@ -121,10 +122,9 @@ footer p {
   margin: 0;
 }
 
-/* NAV DEL FOOTER → HORIZONTAL */
+/* NAV DEL FOOTER */
 footer nav {
   display: flex;
-  flex-direction: row; /* ✅ horizontal */
   gap: 1rem;
 }
 
